@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Background Image</key>
+	<string>navigation_bg</string>
+	<key>Item Title Normal Color</key>
+	<string>#ffffff</string>
+	<key>Item Title Selected Color</key>
+	<string>#000000</string>
+	<key>Need Shadow In iOS7</key>
+	<false/>
+	<key>Navigation Bar Image</key>
+	<string></string>
+	<key>Navigation Bar Tint Color</key>
+	<string>#33abf9</string>
+	<key>Navigation Bar Title Font Size</key>
+	<integer>20</integer>
+	<key>Navigation Bar Title Color</key>
+	<string>#ffffff</string>
+	<key>Items</key>
+	<array>
+		<dict>
+			<key>Title</key>
+			<string>留学资讯</string>
+			<key>Normal Image</key>
+			<string>news.png</string>
+			<key>Selected Image</key>
+			<string>news.png</string>
+			<key>View Controller</key>
+			<string>CounselViewController</string>
+			<key>Need Navigation Wrapper</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>留学机构</string>
+			<key>Normal Image</key>
+			<string>jigou.png</string>
+			<key>Selected Image</key>
+			<string>jigou.png</string>
+			<key>View Controller</key>
+			<string>OrganizationViewController</string>
+			<key>Need Navigation Wrapper</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>院校咨询</string>
+			<key>Normal Image</key>
+			<string>account_tab.png</string>
+			<key>Selected Image</key>
+			<string>account_tab.png</string>
+			<key>View Controller</key>
+			<string>SchoolCounselViewController</string>
+			<key>Need Navigation Wrapper</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>我的留学</string>
+			<key>Normal Image</key>
+			<string>account.png</string>
+			<key>Selected Image</key>
+			<string>account.png</string>
+			<key>View Controller</key>
+			<string>LoginViewController</string>
+			<key>Need Navigation Wrapper</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>更多...</string>
+			<key>Normal Image</key>
+			<string>setting.png</string>
+			<key>Selected Image</key>
+			<string>setting.png</string>
+			<key>View Controller</key>
+			<string>SettingViewController</string>
+			<key>Need Navigation Wrapper</key>
+			<true/>
+		</dict>
+	</array>
+</dict>
+</plist>

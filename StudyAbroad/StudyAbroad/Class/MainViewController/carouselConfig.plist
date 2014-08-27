@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>image</key>
+		<string>http://pic.baomihua.com/photos/201110/m_6_634556077518125000_16429962.jpg</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>http://picview01.pomoho.com/photos/20120317/m_14_634676178587656250_37884693.jpg</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>http://pic.plzmm.com/images/joke/201222801817836.jpg</string>
+	</dict>
+</array>
+</plist>

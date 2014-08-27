@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5053" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment defaultVersion="1536" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MainViewController">
+            <connections>
+                <outlet property="aboutMineButton" destination="pXp-wP-tfH" id="SkS-cz-wH5"/>
+                <outlet property="carouselPageView" destination="Pd2-wc-ANw" id="CAJ-R9-wT6"/>
+                <outlet property="mineStudyAbroadButton" destination="16u-4c-CNS" id="DLt-Pg-dpn"/>
+                <outlet property="schoolsCounselButton" destination="KkH-1F-rtP" id="v92-Ir-gx2"/>
+                <outlet property="studyAbroadCounselButton" destination="cMo-V7-UXy" id="rhe-eY-SXv"/>
+                <outlet property="studyAbroadOrganizationButton" destination="YIu-bJ-10E" id="kil-P8-ok8"/>
+                <outlet property="studyAbroadToolButton" destination="Trq-9E-7vo" id="pc6-q0-PSM"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" id="Pd2-wc-ANw" customClass="DJPageView">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="230"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.29406036029999999" green="0.12447139159999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <view contentMode="scaleToFill" id="WDD-xk-SgF">
+                    <rect key="frame" x="0.0" y="229.99999814518782" width="320" height="338.00000185481218"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" id="cMo-V7-UXy" customClass="CustomButton">
+                            <rect key="frame" x="20" y="30" width="70" height="114"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            <connections>
+                                <action selector="showCounselViewController:" destination="-1" eventType="touchUpInside" id="pIn-8g-IGP"/>
+                            </connections>
+                        </view>
+                        <view contentMode="scaleToFill" id="YIu-bJ-10E" customClass="CustomButton">
+                            <rect key="frame" x="124" y="30" width="70" height="114"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            <connections>
+                                <action selector="showOrganizationViewController:" destination="-1" eventType="touchUpInside" id="qiM-Rk-rvg"/>
+                            </connections>
+                        </view>
+                        <view contentMode="scaleToFill" id="KkH-1F-rtP" customClass="CustomButton">
+                            <rect key="frame" x="225" y="30" width="70" height="114"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            <connections>
+                                <action selector="showSchoolCounselViewController:" destination="-1" eventType="touchUpInside" id="EN6-rc-BSg"/>
+                            </connections>
+                        </view>
+                        <view contentMode="scaleToFill" id="Trq-9E-7vo" customClass="CustomButton">
+                            <rect key="frame" x="20" y="194" width="70" height="114.00000068652142"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            <connections>
+                                <action selector="showToolViewController:" destination="-1" eventType="touchUpInside" id="v43-jp-Xu7"/>
+                            </connections>
+                        </view>
+                        <view contentMode="scaleToFill" id="16u-4c-CNS" customClass="CustomButton">
+                            <rect key="frame" x="124" y="194" width="70" height="114.00000068652142"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            <connections>
+                                <action selector="mineViewController:" destination="-1" eventType="touchUpInside" id="VMU-Ja-1v7"/>
+                            </connections>
+                        </view>
+                        <view contentMode="scaleToFill" id="pXp-wP-tfH" customClass="CustomButton">
+                            <rect key="frame" x="225" y="194" width="70" height="114.00000068652142"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES" heightSizable="YES"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            <connections>
+                                <action selector="showAboutViewController:" destination="-1" eventType="touchUpInside" id="7wL-fz-gYq"/>
+                            </connections>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+        </view>
+    </objects>
+</document>

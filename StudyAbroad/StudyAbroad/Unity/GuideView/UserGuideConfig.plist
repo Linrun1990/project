@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>iPhone5</key>
+	<array>
+		<string>introduce1.png</string>
+		<string>introduce2.png</string>
+		<string>introduce_background_3.png</string>
+	</array>
+	<key>Below iPhone5</key>
+	<array>
+		<string>introduce1.png</string>
+		<string>introduce2.png</string>
+		<string>introduce_background_3.png</string>
+	</array>
+</dict>
+</plist>
