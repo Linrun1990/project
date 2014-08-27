@@ -11,7 +11,7 @@
 #import "BDTabBarButton.h"
 
 @implementation TabBarControllerFactory
-
+//test push
 + (BDTabBarController *)tabBarControllerWithPlistName:(NSString *)plistName {
     NSString *filePath = [[NSBundle mainBundle] pathForResource:plistName ofType:@"plist"];
     NSDictionary *configInfo = [NSDictionary dictionaryWithContentsOfFile:filePath];
